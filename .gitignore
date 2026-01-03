@@ -6,6 +6,13 @@
 credentials.json
 **/credentials.json
 
+# Platform-managed directories - DO NOT COMMIT
+.trinity/
+.claude/commands/trinity/
+
+# Large generated content - DO NOT COMMIT
+content/
+
 # Claude Code session data
 .claude/projects/
 .claude/statsig/
